@@ -1,12 +1,12 @@
 clc
 clear all
 close all
-load ../data/A.mat
-load ../data/b.mat
-load ../data/P.mat
-load ../data/q.mat
-load ../data/x_0.mat
-load ../data/mu.mat
+load ./data/A.mat
+load ./data/b.mat
+load ./data/P.mat
+load ./data/q.mat
+load ./data/x_0.mat
+load ./data/mu.mat
 
 epsilon = 1e-8;
 alpha = 0.1;
